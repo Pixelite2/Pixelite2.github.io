@@ -1,0 +1,71 @@
+
+
+/* Reset margin and padding globally */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Ensure full height */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background: #5F8F38;
+    color: white;
+}
+
+/* Full-width adjustments for content */
+h1, .blurb, form, #output {
+    width: 100%; /* Ensure full width */
+    margin: 0;
+    padding: 0;
+}
+
+/* Base CSS for layout */
+h1, .blurb {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between the inputs */
+    width: 100%; /* Ensure the form takes full width on small screens */
+    max-width: 600px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the form on larger screens */
+}
+
+label {
+    font-size: 14px; /* Adjust label font size */
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%; /* Make inputs take full width */
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 600px) {
+    /* Ensure form and other elements take full width */
+    form {
+        width: 100%; /* Full width for the form */
+    }
+
+    input[type="number"] {
+        padding: 12px; /* Add more padding on smaller screens */
+        font-size: 16px; /* Adjust font size for readability */
+    }
+
+    input[type="submit"] {
+        padding: 12px; /* Adjust submit button padding for mobile */
+    }
+
+    #output {
+        width: 100%; /* Ensure output takes full width on mobile */
+    }
+}
