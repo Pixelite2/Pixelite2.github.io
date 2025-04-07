@@ -20,7 +20,7 @@ const lottotime = (event) => {
     let v14 = parseInt(document.getElementById('v14').value) * 5 || 0;
     let v15 = parseInt(document.getElementById('v15').value) * 5 || 0;
     let v16 = parseInt(document.getElementById('v16').value) * 5 || 0;
-    let v17 = parseInt(document.getElementById('v17').value) * 5 || 0;
+    let v17 = parseInt(document.getElementById('v17').value) * 3 || 0;
     let v18 = parseInt(document.getElementById('v18').value) * 3 || 0;
     let v19 = parseInt(document.getElementById('v19').value) * 2 || 0;
     let v20 = parseInt(document.getElementById('v20').value) * 2 || 0;
