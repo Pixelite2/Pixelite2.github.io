@@ -26,7 +26,7 @@ const lottotime = (event) => {
     let v20 = parseInt(document.getElementById('v20').value) * 2 || 0;
     let v21 = parseInt(document.getElementById('v21').value) * 2 || 0;
     let v22 = parseInt(document.getElementById('v22').value) * 2 || 0;
-    let v23 = parseInt(document.getElementById('v23').value) * 2 || 0;
+    let v23 = parseInt(document.getElementById('v23').value) || 0;
     let v24 = parseInt(document.getElementById('v24').value) || 0;
 
     let vso = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10 + v11 + v12 + v13 + v14 + v15 + v16 + v17 + v18 + v19 + v20 + v21 + v22 + v23 + v24;
