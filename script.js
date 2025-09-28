@@ -8,7 +8,7 @@ const lottotime = (event) => {
     let v2 = parseInt(document.getElementById('v2').value) * 50 || 0;
     let v3 = parseInt(document.getElementById('v3').value) * 50 || 0;
     let v4 = parseInt(document.getElementById('v4').value) * 30 || 0;
-    let v5 = parseInt(document.getElementById('v5').value) * 20 || 0;
+    let v5 = parseInt(document.getElementById('v5').value) * 30 || 0;
     let v6 = parseInt(document.getElementById('v6').value) * 20 || 0;
     let v7 = parseInt(document.getElementById('v7').value) * 20 || 0;
     let v8 = parseInt(document.getElementById('v8').value) * 20 || 0;
@@ -25,7 +25,7 @@ const lottotime = (event) => {
     let v19 = parseInt(document.getElementById('v19').value) * 2 || 0;
     let v20 = parseInt(document.getElementById('v20').value) * 2 || 0;
     let v21 = parseInt(document.getElementById('v21').value) * 2 || 0;
-    let v22 = parseInt(document.getElementById('v22').value) * 2 || 0;
+    let v22 = parseInt(document.getElementById('v22').value) || 0;
     let v23 = parseInt(document.getElementById('v23').value) || 0;
     let v24 = parseInt(document.getElementById('v24').value) || 0;
 
@@ -67,4 +67,5 @@ const lottotime = (event) => {
 }
 
 form.addEventListener('submit', lottotime);
+
 
