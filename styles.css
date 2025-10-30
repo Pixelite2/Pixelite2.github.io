@@ -4,7 +4,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    width: 90%; /* Ensure full width */
+    width: 100%; /* Ensure full width */
     height: 100%; /* Ensure full height */
     overflow-x: hidden; /* Prevent horizontal scrolling */
     background: #5F8F38;
@@ -73,6 +73,7 @@ input[type="submit"] {
         width: 100%; /* Ensure output takes full width on mobile */
     }
 }
+
 
 
 
