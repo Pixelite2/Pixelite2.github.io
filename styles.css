@@ -50,7 +50,7 @@ input[type="submit"] {
 }
 
 /* Mobile-friendly adjustments */
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     /* Ensure form and other elements take full width */
     form {
         width: 100%; /* Full width for the form */
@@ -69,3 +69,4 @@ input[type="submit"] {
         width: 100%; /* Ensure output takes full width on mobile */
     }
 }
+
