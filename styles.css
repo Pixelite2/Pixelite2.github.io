@@ -31,9 +31,9 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px; /* Space between the inputs */
-    width: 90%; /* Ensure the form takes full width on small screens */
+    width: 70%; /* Ensure the form takes full width on small screens */
     max-width: 1400px; /* Max width for larger screens */
-    margin: 10 auto; /* Center the form on larger screens */
+    margin: 10; /* Center the form on larger screens */
 }
 
 label {
@@ -73,6 +73,7 @@ input[type="submit"] {
         width: 100%; /* Ensure output takes full width on mobile */
     }
 }
+
 
 
 
