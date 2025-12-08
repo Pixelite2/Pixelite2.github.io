@@ -22,10 +22,10 @@ const lottotime = (event) => {
     let v16 = parseInt(document.getElementById('v16').value) * 5 || 0;
     let v17 = parseInt(document.getElementById('v17').value) * 5 || 0;
     let v18 = parseInt(document.getElementById('v18').value) * 3 || 0;
-    let v19 = parseInt(document.getElementById('v19').value) * 2 || 0;
+    let v19 = parseInt(document.getElementById('v19').value) * 3 || 0;
     let v20 = parseInt(document.getElementById('v20').value) * 2 || 0;
     let v21 = parseInt(document.getElementById('v21').value) * 2 || 0;
-    let v22 = parseInt(document.getElementById('v22').value) || 0;
+    let v22 = parseInt(document.getElementById('v22').value) * 2 || 0;
     let v23 = parseInt(document.getElementById('v23').value) || 0;
     let v24 = parseInt(document.getElementById('v24').value) || 0;
 
@@ -67,6 +67,7 @@ const lottotime = (event) => {
 }
 
 form.addEventListener('submit', lottotime);
+
 
 
 
