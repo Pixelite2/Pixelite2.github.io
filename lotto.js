@@ -16,7 +16,7 @@ const lottotime = (event) => {
     let v10 = parseInt(document.getElementById('v10').value) * 10 || 0;
     let v11 = parseInt(document.getElementById('v11').value) * 10 || 0;
     let v12 = parseInt(document.getElementById('v12').value) * 10 || 0;
-    let v13 = parseInt(document.getElementById('v13').value) * 10 || 0;
+    let v13 = parseInt(document.getElementById('v13').value) * 5 || 0;
     let v14 = parseInt(document.getElementById('v14').value) * 5 || 0;
     let v15 = parseInt(document.getElementById('v15').value) * 5 || 0;
     let v16 = parseInt(document.getElementById('v16').value) * 5 || 0;
@@ -67,6 +67,7 @@ const lottotime = (event) => {
 }
 
 form.addEventListener('submit', lottotime);
+
 
 
 
