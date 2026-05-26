@@ -76,10 +76,12 @@ input[type="submit"] {
 
 
 
-.checkboxes:checked + .text-label {
+/* Uses the + sign to style the label immediately after a checked box */
+.checkboxes:checked + label {
   text-decoration: line-through;
-  color: gray;
+  color: rgba(255, 255, 255, 0.5); /* Semi-transparent white looks best on green */
 }
+
 
 
 
